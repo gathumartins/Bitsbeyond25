@@ -1,0 +1,9 @@
+import React from 'react'
+
+function Impact() {
+  return (
+    <article className='bg-accent dark:bg-accent min-h-[500px]'>Impact</article>
+  )
+}
+
+export default Impact

@@ -46,7 +46,7 @@ function Footer() {
           </div>
           <div className='sm:col-span-2 lg:col-span-1'>
             <h6>Follow Us</h6>
-            <ul className="[&_li]:mb-2 mt-3 font-semibold">
+            <ul className="[&_li]:mb-2 mt-3 font-semibold max-w-[170px]">
               <li>
                 <Link href="/" title='NairoBits Trust Facebook social link' target='_blank' className='flex gap-3 items-center text-white hover:text-orange dark:text-white dark:hover:text-[#0000A9] cursor-pointer'>
                 <img src="images/fb.svg" alt="NairoBits Trust Facebook social link"  className='w-[30px] h-[29.3px] inline-block'/>
