@@ -184,9 +184,9 @@ function Footer() {
         </div>
       </section>
       <section className="bg-black dark:bg-black text-white dark:text-accent">
-        <div className="myCont py-3">
-          <div className="flex flex-col md:flex-row items-center justify-between font-sans font-semibold text-sm contPadd">
-            <ul className="flex justify-start gap-3 mb-3">
+        <div className="myCont">
+          <div className="flex flex-col md:flex-row gap-3 items-center justify-between font-sans font-semibold text-sm py-4 contPadd">
+            <ul className="flex justify-start gap-3">
               <li>
                 <Link
                   href="/privacy"
