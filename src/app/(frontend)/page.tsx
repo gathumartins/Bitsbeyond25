@@ -7,14 +7,14 @@ import FeaturedNews from "../components/FeaturedNews";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <HomeHero/>
-      <article className="myCont">
+      <main className="myCont">
         <HomePartners/>
         <Impact/>
         <TestimonalsSlider/>
         <FeaturedNews/>
-      </article>
-    </main>
+      </main>
+    </>
   );
 }

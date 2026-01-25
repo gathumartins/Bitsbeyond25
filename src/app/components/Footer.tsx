@@ -5,7 +5,7 @@ function Footer() {
   const year = new Date();
   return (
     <footer className="bg-[url(/images/newsbg.png)] bg-no-repeat bg-top">
-      <section className="bg-blue/75 dark:bg-blue/75 py-12">
+      <section className="bg-blue/75 dark:bg-blue/75 py-11">
         <div className="myCont">
           <div className="text-center contPadd">
             <h3 className="text-orange font-sans font-bold text-4xl">
@@ -185,7 +185,7 @@ function Footer() {
       </section>
       <section className="bg-black dark:bg-black text-white dark:text-accent">
         <div className="myCont">
-          <div className="flex flex-col text-center md:text-left md:flex-row gap-3 items-center justify-between font-sans font-semibold text-sm py-4 contPadd">
+          <div className="flex flex-col text-center md:text-left md:flex-row gap-3 items-center justify-between font-sans font-semibold text-sm py-6 contPadd">
             <ul className="flex justify-start gap-3">
               <li>
                 <Link
