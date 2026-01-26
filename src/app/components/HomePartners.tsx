@@ -1,9 +1,16 @@
+'use client'
 import React from 'react'
+import dynamic from "next/dynamic";
+
+const ScrollCarousel = dynamic(
+  () => import("./ScrollCarouselComponent"),
+  { ssr: false },
+);
 
 function HomePartners() {
   return (
-    <section className="bg-white dark:bg-white min-h-[180px] contPadd py-11">
-      Home Partners
+    <section className="bg-white dark:bg-white contPadd py-11">
+      <ScrollCarousel/>
     </section>
   );
 }

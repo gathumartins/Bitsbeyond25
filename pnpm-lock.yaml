@@ -56,6 +56,9 @@ importers:
       react-icons:
         specifier: ^5.5.0
         version: 5.5.0(react@19.2.3)
+      scroll-carousel-react:
+        specifier: ^1.0.0
+        version: 1.0.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(scroll-carousel@1.2.7)
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.3.1
@@ -3284,6 +3287,16 @@ packages:
 
   scheduler@0.27.0:
     resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
+
+  scroll-carousel-react@1.0.0:
+    resolution: {integrity: sha512-qx3YibxHxeHgtGn/RosDIDg9US1XZVvdPUnDA6DqXhyBRRxd0Dcmz8MbKBJOGcHS9TuHb0OuRGz4VvN6MUDxog==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      scroll-carousel: ^1.2.7
+
+  scroll-carousel@1.2.7:
+    resolution: {integrity: sha512-tiXdee3QJgyaUXVA5cW4s1qUNdpPG3jGFsoJ1Jc2kDS4X8ipIvwkPwgZSF9SYszCvF9BRxGduJDQunMWBzavdw==}
 
   scroll-into-view-if-needed@3.0.10:
     resolution: {integrity: sha512-t44QCeDKAPf1mtQH3fYpWz8IM/DyvHLjs8wUvvwMYxk5moOqCzrMSxK6HQVD0QVmVjXFavoFIPRVrMuJPKAvtg==}
@@ -7673,6 +7686,14 @@ snapshots:
       is-regex: 1.2.1
 
   scheduler@0.27.0: {}
+
+  scroll-carousel-react@1.0.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(scroll-carousel@1.2.7):
+    dependencies:
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
+      scroll-carousel: 1.2.7
+
+  scroll-carousel@1.2.7: {}
 
   scroll-into-view-if-needed@3.0.10:
     dependencies:
