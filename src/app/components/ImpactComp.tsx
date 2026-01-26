@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function ImpactComp() {
   return (
-    <div className="min-h-[105px] min-w-[320px] rounded flex flex-row flex-start bg-white dark:bg-white">
+    <div className="min-h-[105px] w-full md:min-w-[320px] rounded flex flex-row flex-start bg-white dark:bg-white">
       <figure className="bg-blue text-white dark:bg-blue dark:text-white p-6 w-[100px] h-[105px] rounded-l relative">
         <Image
           src={`/images/calendar.svg`}
