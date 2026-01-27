@@ -13,7 +13,7 @@ function TestimonalsSlider() {
   return (
     <section className="min-h-[250px] bg-white dark:bg-white contPadd py-11">
       <h2 className="bodyH2 mb-5">Testimonials</h2>
-      <Carousel opts={{ align: "start", loop: true }}>
+      <Carousel opts={{ align: "start", loop: true }} className='w-full overflow-hidden'>
         <CarouselContent className="-mr-60 md:-mr-40 flex items-stretch">
           {[1,2,3,4,5,6,7,8,9].map((test: any, index: number) => (
             <CarouselItem
