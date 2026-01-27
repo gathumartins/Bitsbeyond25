@@ -5,6 +5,7 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import AutoScroll from "embla-carousel-auto-scroll";
 import Image from 'next/image';
 
 
@@ -69,6 +70,9 @@ function PartnersSliders() {
       plugins={[
         Autoplay({
           delay: 2000,
+        }),
+        AutoScroll({
+          speed: 1,
         }),
       ]}
     >
