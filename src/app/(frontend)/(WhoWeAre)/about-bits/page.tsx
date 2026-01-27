@@ -199,7 +199,7 @@ function page() {
                   src="/images/emer.webp"
                   alt="NairoBits Co-Trust Founder Emer Beamer"
                   fill
-                  className="object-cover aspect-square rounded"
+                  className="object-cover aspect-square rounded dark:grayscale-100"
                 />
               </div>
 
@@ -231,7 +231,7 @@ function page() {
                       src="/images/flin.png"
                       alt="Co-founder linkedin link icon"
                       fill
-                      className="object-fit"
+                      className="object-fit dark:grayscale-100"
                     />
                   </Link>
                 </footer>
@@ -243,7 +243,7 @@ function page() {
                   src="/images/ineke.webp"
                   alt="NairoBits Co-Trust Founder Ineke Aquarius"
                   fill
-                  className="object-cover aspect-square rounded"
+                  className="object-cover aspect-square rounded dark:grayscale-100"
                 />
               </div>
               <div className="grow text-black dark:text-black font-sans text-base flex flex-col justify-between">
@@ -273,7 +273,7 @@ function page() {
                       src="/images/flin.png"
                       alt="Co-founder linkedin link icon"
                       fill
-                      className="object-fit"
+                      className="object-fit dark:grayscale-100"
                     />
                   </Link>
                 </footer>

@@ -16,7 +16,7 @@ function PostCard({ horizontal = false }: PostCardProps) {
           height={317}
           width={576}
           priority
-          className="rounded w-full inline-block"
+          className="rounded w-full inline-block dark:grayscale-100"
         />
       </CardHeader>
       <CardContent className={`p-0 ${horizontal ? 'md:col-span-2' : ''}`}>

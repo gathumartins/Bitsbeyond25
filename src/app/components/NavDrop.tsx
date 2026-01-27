@@ -18,10 +18,10 @@ function NavDrop() {
         <FaCaretDown />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="ml-10 mt-5 border-none bg-white dark:bg-white rounded-t-none rounded-b font-sans text-base font-semibold capitalize">
-        <DropdownMenuItem>
+        <DropdownMenuItem asChild>
           <Link href="/about-bits">About Bits</Link>
         </DropdownMenuItem>
-        <DropdownMenuItem>
+        <DropdownMenuItem asChild>
           <Link href="/bits-team">Bits Team</Link>
         </DropdownMenuItem>
       </DropdownMenuContent>

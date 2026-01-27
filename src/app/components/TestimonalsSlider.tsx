@@ -29,7 +29,7 @@ function TestimonalsSlider() {
                 </CardContent>
                 <CardFooter className="flex flex-row gap-5">
                   <Avatar>
-                    <AvatarImage src="https://github.com/shadcn.png" />
+                    <AvatarImage src="https://github.com/shadcn.png" className='dark:grayscale-100'/>
                     <AvatarFallback>CN</AvatarFallback>
                   </Avatar>
                   <div>
