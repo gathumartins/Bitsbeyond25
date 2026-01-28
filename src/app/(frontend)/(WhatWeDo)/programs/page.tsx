@@ -1,3 +1,4 @@
+import ClusterComp from '@/app/components/ClusterComp'
 import PagesHero from '@/app/components/PagesHero'
 import React from 'react'
 
@@ -6,9 +7,9 @@ function page() {
     <>
     <PagesHero/>
     <main className="myCont">
-      <section className="contPadd py-11">
-        <h2 className="bodyH2 mb-5">Page Heading</h2>
-      </section>
+      {[1,2,3,4].map((cluster, i:number)=>(
+        <ClusterComp key={i} num={i}/>
+      ))}
     </main>
     </>
   )
