@@ -6,6 +6,7 @@ import {
   DrawerFooter,
   DrawerHeader,
   DrawerTrigger,
+  DrawerTitle,
 } from "@/components/ui/drawer"
 import { IoMenu, IoClose } from "react-icons/io5";
 import Link from 'next/link';
@@ -21,6 +22,7 @@ function MobileNav({ navs }: HeaderProps) {
       </DrawerTrigger>
       <DrawerContent className="bg-white max-sm:min-w-full border-none m-0">
         <DrawerHeader className="grid grid-cols-6 items-center bg-blue shadow">
+          <DrawerTitle className='hidden'>NairoBits Trust Mobile Navigation</DrawerTitle>
           <DrawerClose asChild>
             <IoClose className="w-9 h-9 cursor-pointer text-white" />
           </DrawerClose>

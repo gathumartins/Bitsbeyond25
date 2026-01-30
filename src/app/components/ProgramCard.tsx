@@ -14,7 +14,7 @@ function ProgramCard() {
           alt="Program image"
           fill
           priority
-          className="object-cover rounded"
+          className="object-cover rounded dark:grayscale-100"
         />
       </figure>
       <div className='p-4'>
