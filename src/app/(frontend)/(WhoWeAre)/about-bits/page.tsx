@@ -193,7 +193,7 @@ function page() {
         <section className="contPadd py-11 bg-white dark:bg-white">
           <h2 className="bodyH2 mb-5">In their Words</h2>
           <div className="flex flex-col md:flex-row gap-6">
-            <div className="bg-white max-sm:max-w-[487px] max-sm:mx-auto md:max-max-w-[350px] md:mx-auto dark:bg-white ring rounded ring-gray shadow p-5 flex flex-col sm:flex-row  md:flex-col  xl:flex-row xl:min-w-[487px] justify-between gap-4">
+            <div className="bg-white max-sm:max-w-[487px] max-sm:mx-auto md:max-max-w-[350px] md:mx-auto dark:bg-white ring rounded ring-gray dark:ring-blue shadow dark:shadow-blue p-5 flex flex-col sm:flex-row  md:flex-col  xl:flex-row xl:min-w-[487px] justify-between gap-4">
               <div className="relative min-w-[250px] min-h-[250px]">
                 <Image
                   src="/images/emer.webp"
@@ -231,13 +231,13 @@ function page() {
                       src="/images/flin.png"
                       alt="Co-founder linkedin link icon"
                       fill
-                      className="object-fit dark:grayscale-100"
+                      className="object-fit dark:contrast-0"
                     />
                   </Link>
                 </footer>
               </div>
             </div>
-            <div className="bg-white max-sm:max-w-[487px] max-sm:mx-auto md:max-max-w-[350px] md:mx-auto dark:bg-white ring rounded ring-gray shadow p-5 flex flex-col sm:flex-row  md:flex-col  xl:flex-row xl:min-w-[487px] justify-between gap-4">
+            <div className="bg-white max-sm:max-w-[487px] max-sm:mx-auto md:max-max-w-[350px] md:mx-auto dark:bg-white ring rounded ring-gray shadow dark:shadow-blue dark:ring-blue p-5 flex flex-col sm:flex-row  md:flex-col  xl:flex-row xl:min-w-[487px] justify-between gap-4">
               <div className="relative min-w-[250px] min-h-[250px]">
                 <Image
                   src="/images/ineke.webp"
@@ -273,7 +273,7 @@ function page() {
                       src="/images/flin.png"
                       alt="Co-founder linkedin link icon"
                       fill
-                      className="object-fit dark:grayscale-100"
+                      className="object-fit dark:contrast-0"
                     />
                   </Link>
                 </footer>

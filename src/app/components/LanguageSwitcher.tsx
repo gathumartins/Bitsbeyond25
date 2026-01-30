@@ -36,7 +36,8 @@ function LanguageSwitcher() {
           className="flex items-center justify-between gap-3 px-2 text-blue"
           aria-label="Toggle language menu"
         >
-          <div className="flex items-center gap-3 cursor-pointer">
+          <div
+            className="flex items-center gap-3 cursor-pointer">
             <HiMiniLanguage className="inline-block h-6 w-6 md:h-5 font-bold md:w-5 text-blue dark:text-[#F7A31A]" />
             <span className="hidden md:block font-sans text-sm font-semibold text-black hover:text-blue hover:dark:text-[#F7A31A]">
               Choose Language
@@ -47,6 +48,7 @@ function LanguageSwitcher() {
       <DropdownMenuContent
         align="end"
         className="mt-2 border-0 bg-white font-sans rounded-t-none rounded-b-[4px] font-semibold text-black shadow-none"
+        translate="no"
       >
         {LANGUAGES.map(({ code, label }) => (
           <DropdownMenuItem
