@@ -10,7 +10,7 @@ import { HiMiniLanguage } from "react-icons/hi2";
 
 const LANGUAGES = [
   { label: "English", code: "en" },
-  { label: "French", code: "fr" },
+  { label: "German", code: "de" },
   { label: "Arabic", code: "ar" },
   { label: "Japanese", code: "ja" },
   { label: "Chinese (Simplified)", code: "zh-CN" },
