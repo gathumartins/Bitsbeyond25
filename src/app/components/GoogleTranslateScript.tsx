@@ -2,7 +2,7 @@
 
 import Script from "next/script";
 
-const INCLUDED_LANGUAGES = "en,fr,ar,ja,zh-CN,zh-TW";
+const INCLUDED_LANGUAGES = "en,de,ar,ja,zh-CN,zh-TW";
 
 declare global {
   interface Window {
